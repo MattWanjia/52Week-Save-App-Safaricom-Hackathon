@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittxtPri"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:padding="30dp"
+        android:hint="Principle Amount"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="30dp"
+        android:text="SAVED AMOUNT"
+        android:id="@+id/savedAmt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="CALCULATE"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/calculateBt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="RESET"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/reset" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
